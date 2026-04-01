@@ -1,0 +1,107 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+}
+
+.container {
+    width: 350px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.balance-box {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.income {
+    background: #e8f5e9;
+    padding: 10px;
+    width: 45%;
+    border-radius: 10px;
+}
+
+.expense {
+    background: #ffebee;
+    padding: 10px;
+    width: 45%;
+    border-radius: 10px;
+}
+
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    width: 95%;
+    margin-top: 10px;
+    border: none;
+    background: #3498db;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f1f1f1;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chart {
+    margin-top: 20px;
+}
+
+#incomeBar {
+    height: 20px;
+    background: green;
+    margin: 5px;
+}
+
+#expenseBar {
+    height: 20px;
+    background: red;
+    margin: 5px;
+}
